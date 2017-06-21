@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.timeloveboy</groupId>
-    <artifactId>util</artifactId>
-    <version>0.1.0</version>
+    <artifactId>utils</artifactId>
+    <version>0.1</version>
     <packaging>jar</packaging>
-    <name>moe java util</name>
-    <url>https://github.com/timeloveboy/util</url>
-    <description>util</description>
+    <name>moe java utils</name>
+    <url>https://github.com/timeloveboy/utils</url>
+    <description>utils</description>
 
     <build>
         <plugins>
@@ -30,9 +30,9 @@
         <testSourceDirectory>test</testSourceDirectory>
     </build>
     <scm>
-        <connection>scm:git:git://github.com/timeloveboy/util.git</connection>
-        <developerConnection>scm:git:git@github.com/timeloveboy/util.git</developerConnection>
-        <url>https://github.com/timeloveboy/util</url>
+        <connection>scm:git:git://github.com/timeloveboy/utils.git</connection>
+        <developerConnection>scm:git:git@github.com/timeloveboy/utils.git</developerConnection>
+        <url>https://github.com/timeloveboy/utils</url>
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
@@ -145,8 +145,6 @@
         </license>
     </licenses>
     <properties>
-        <netty.version>4.0.4.Final</netty.version>
-        <jetty.version>9.3.13</jetty.version>
         <java-version>1.8</java-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
